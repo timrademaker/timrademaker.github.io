@@ -1,0 +1,14 @@
+{% assign portfolio_data = site.data.portfolio[include.project_title] %}
+<div class="project-image" style="background-image:url( ' {{ portfolio_data.tile_image }} ' );">
+    <a href="{% link {{ portfolio_data.file }} %}">
+        <div class="project-summary">
+            <h2 class="project-title">{{ portfolio_data.title }}</h2>
+        </div>
+
+        <div class="project-description">
+            {% for detail in portfolio_data.details %}
+            <b>{{ detail.title }}</b>: {{ detail.value }}<br>
+            {% endfor %}
+        </div>
+    </a>
+</div>
