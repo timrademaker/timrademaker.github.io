@@ -1,7 +1,8 @@
-{% assign portfolio_data = site.data.portfolio[include.project_title] %}
-<div class="project-image" style="background-image:url( ' {{ portfolio_data.tile_image }} ' );">
+{% assign project_slug = include.project_title | slugify %}
+{% assign portfolio_data = site.data.portfolio[project_slug] %}
+<div class="project-image column" style="background-image:url('{{- portfolio_data.tile_image -}}');">
     <a href="{% link {{ portfolio_data.file }} %}">
-        <div class="project-summary">
+        <div class="project-title-background">
             <h2 class="project-title">{{ portfolio_data.title }}</h2>
         </div>
 
