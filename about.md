@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
+<h1 class="page-title">{{ page.title }}</h1>
 <div id="content">
 <div id="picture" style="float:left; margin:0; width:45%;">
     <img src="assets/tim.jpg" style="border-radius:50%">
