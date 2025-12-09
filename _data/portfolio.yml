@@ -1,0 +1,11 @@
+nis-classics-vol-2:
+    title: NIS Classics Vol. 2
+    file: _portfolio/nis-classics-vol-2.md
+    tile_image: /assets/portfolio/nis-classics-vol-2/nis-classics-vol-2-tile.jpg
+    details:
+        - title: Engine
+          value: Proprietary Engine (C++)
+        - title: Team size
+          value: 9
+        - title: Duration
+          value: 27 weeks
