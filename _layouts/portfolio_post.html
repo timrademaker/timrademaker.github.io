@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% assign project_slug = page.title | slugify %}
+{% assign project_data = site.data.portfolio[project_slug] %}
+
+<div class="columns">
+    <iframe class="column video-embed aspect-16-9" src="http://www.youtube.com/embed/{{ project_data.trailer_id }}" frameborder="0" allowfullscreen></iframe>
+    <div class="column">
+        <h2>Responsibilities and Work</h2>
+        <ul>
+            {% for responsibility in project_data.responsibilities %}
+            <li>
+                {% if responsibility.has_details %}
+                <a href="#{{ responsibility.name | slugify }}">{{ responsibility.name }}</a>
+                {% else %}
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="spacer" style="height:30px"></div>
+
+<div class="columns">
+    <div class="column">
+        <h2>Project Description</h2>
+        <p>{{ project_data.description }}</p>
+    </div>
+    {% if project_data.details or project_data.store_links %}
+    <div class="column">
+        <h2>Additional Information</h2>
+            {% for detail in project_data.details %}
+                <b>{{ detail.title }}</b>: {{ detail.value }}<br>
+            {% endfor %}
+        {% if project_data.store_links %}
+            <b>Available on</b>:
+            {% for store in project_data.store_links %}
+            <a href="{{ store.link }}">{{ store.name }}</a>{% unless forloop.last %},{% endunless -%}
+            {% endfor %}
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+
+<div class="spacer" style="height:30px"></div>
+
+{{ content }}
