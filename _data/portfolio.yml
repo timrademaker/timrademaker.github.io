@@ -5,26 +5,26 @@ nis-classics-vol-2:
     tile_image: /assets/portfolio/nis-classics-vol-2/nis-classics-vol-2-tile.jpg
     trailer_id: mOFin-8lAYY
     responsibilities:
-        - name: Mouse Support
-          has_details: true
-        - name: Map Rendering Optimization
-          has_details: true
-        - name: Game Data Load Speed-Up
-          has_details: true
-        - name: Debug Features
-          has_details: true
-        - name: Achievements
-          has_details: true
-        - name: Bug Fixing
-          has_details: true
+      - name: Mouse Support
+        has_details: true
+      - name: Map Rendering Optimization
+        has_details: true
+      - name: Game Data Load Speed-Up
+        has_details: true
+      - name: Debug Features
+        has_details: true
+      - name: Achievements
+        has_details: true
+      - name: Bug Fixing
+        has_details: true
     details:
-        - title: Engine
-          value: Proprietary Engine (C++)
-        - title: Team size
-          value: 9
-        - title: Duration
-          value: September 2021 - March 2022 (27 weeks)
-          value_short: 27 weeks
+      - title: Engine
+        value: Proprietary Engine (C++)
+      - title: Team size
+        value: 9
+      - title: Duration
+        value: September 2021 - March 2022 (27 weeks)
+        value_short: 27 weeks
     store_links:
       - name: Steam
         link: https://store.steampowered.com/bundle/25538/Prinny_Presents_NIS_Classics_Volume_2__Makai_Kingdom_Reclaimed_and_Rebound__ZHP_Unlosing_Ranger_vs_Darkdeath_Evilman_Digital_Deluxe_Edition/
