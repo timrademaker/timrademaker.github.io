@@ -1,7 +1,22 @@
 nis-classics-vol-2:
     title: NIS Classics Vol. 2
+    description: Two classic action RPGs making their entrance on modern platforms, over a decade after their original release.
     file: _portfolio/nis-classics-vol-2.md
     tile_image: /assets/portfolio/nis-classics-vol-2/nis-classics-vol-2-tile.jpg
+    trailer_id: mOFin-8lAYY
+    responsibilities:
+        - name: Mouse Support
+          has_details: true
+        - name: Map Rendering Optimization
+          has_details: true
+        - name: Game Data Load Speed-Up
+          has_details: true
+        - name: Debug Features
+          has_details: true
+        - name: Achievements
+          has_details: true
+        - name: Bug Fixing
+          has_details: true
     details:
         - title: Engine
           value: Proprietary Engine (C++)
@@ -9,3 +24,8 @@ nis-classics-vol-2:
           value: 9
         - title: Duration
           value: 27 weeks
+    store_links:
+      - name: Steam
+        link: https://store.steampowered.com/bundle/25538/Prinny_Presents_NIS_Classics_Volume_2__Makai_Kingdom_Reclaimed_and_Rebound__ZHP_Unlosing_Ranger_vs_Darkdeath_Evilman_Digital_Deluxe_Edition/
+      - name: Nintendo Store
+        link: https://www.nintendo.com/us/store/products/prinny-presents-nis-classics-volume-2-makai-kingdom-reclaimed-and-rebound-zhp-unlosing-ranger-vs-darkdeath-evilman-switch/
