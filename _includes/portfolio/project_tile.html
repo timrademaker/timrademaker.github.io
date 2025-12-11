@@ -8,7 +8,7 @@
 
         <div class="project-description">
             {% for detail in portfolio_data.details %}
-            <b>{{ detail.title }}</b>: {{ detail.value }}<br>
+            <b>{{ detail.title }}</b>: {{ detail.value_short | default: detail.value }}<br>
             {% endfor %}
         </div>
     </a>
