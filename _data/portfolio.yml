@@ -30,3 +30,37 @@ nis-classics-vol-2:
         link: https://store.steampowered.com/bundle/25538/Prinny_Presents_NIS_Classics_Volume_2__Makai_Kingdom_Reclaimed_and_Rebound__ZHP_Unlosing_Ranger_vs_Darkdeath_Evilman_Digital_Deluxe_Edition/
       - name: Nintendo Store
         link: https://www.nintendo.com/us/store/products/prinny-presents-nis-classics-volume-2-makai-kingdom-reclaimed-and-rebound-zhp-unlosing-ranger-vs-darkdeath-evilman-switch/
+
+til-nord:
+  title: Til Nord
+  description: Discover a sublime open world on your snowmobile! Drive among the frozen environment of Snøfall øyer to discover beautiful vistas, time trials and quests that permanently change the open world in Til Nord; a free snowmobile driving game for PC.
+  file: _portfolio/til-nord.md
+  tile_image: /assets/portfolio/til-nord/til-nord-tile.jpg
+  trailer_id: kYy0MueNMFg
+  responsibilities:
+    - name: Analytics
+      has_details: true
+    - name: Build Pipeline
+      has_details: true
+    - name: Submit Pipeline
+      has_details: true
+    - name: Crash Reporter
+      has_details: true
+    - name: Input Settings
+      has_details: true
+    - name: Saving and Loading
+      has_details: true
+    - name: Quality Assurance
+      has_details: true
+  details:
+    - title: Engine
+      value: Unreal Engine 4
+    - title: Team size
+      value: 19 (4 programmers, 11 designers, 4 artists)
+      value_short: 19
+    - title: Project Duration
+      value: September 2020 - June 2021 (36 weeks)
+      value_short: 36 weeks
+  store_links:
+    - name: Steam
+      link: https://store.steampowered.com/app/1490860/Til_Nord/
