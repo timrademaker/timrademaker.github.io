@@ -143,3 +143,41 @@ bongo-beater:
   store_links:
     - name: itch.io
       link: https://timrademaker.itch.io/bongo-beater?password=portfolio
+
+gradiusengine:
+  title: GradiusEngine
+  description: GradiusEngine is a custom engine that was supposed to be used to recreate Gradius V,
+  file: _portfolio/gradiusengine.md
+  tile_image: /assets/portfolio/gradiusengine/gradiusengine-interface.png
+  video_id: 05kgvwbgRS8
+  responsibilities:
+    - name: Overall engine architecture
+      has_details: true
+    - name: Various engine features
+      has_details: false
+      subdetails:
+        - name: Editor interface
+          has_details: true
+        - name: Serialization and deserialization (scenes and objects)
+          has_details: false
+        - name: Entity component system
+          has_details: false
+        - name: File IO
+          has_details: false
+        - name: Resource manager
+          has_details: false
+        - name: Input system
+          has_details: false
+        - name: Audio support (using FMOD)
+          has_details: false
+    - name: Automated builds
+      has_details: false
+  details:
+    - title: Language
+      value: C++
+    - title: Team size
+      value: 3 (1 engine programmer, 1 graphics programmer, 1 gameplay programmer)
+      value_short: 3
+    - title: Project Duration
+      value: September 2019 - November 2019 (8 weeks)
+      value_short: 8 weeks
