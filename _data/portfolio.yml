@@ -118,3 +118,28 @@ formula-frosty:
   store_links:
     - name: itch.io
       link: https://timrademaker.itch.io/formula-frosty?password=portfolio
+
+bongo-beater:
+  title: Bongo Beater
+  description: Bongo Beater is a virtual reality rhythm game where the player hits bongos on the beat of the music to destroy incoming asteroids and gain points.
+  file: _portfolio/bongo-beater.md
+  tile_image: /assets/portfolio/bongo-beater/bongo-beater-tile.png
+  video_id: ckEU5EWiPSg
+  responsibilities:
+    - name: Procedural generation of asteroid timing based on music
+      has_details: true
+      details_heading: Procedural Generation
+    - name: VR controls
+      has_details: false
+  details:
+    - title: Engine
+      value: Unreal Engine 4
+    - title: Team size
+      value: 9 (3 programmers, 3 designers, artists)
+      value_short: 9
+    - title: Project Duration
+      value: January 2020 - January 2020 (3 weeks)
+      value_short: 3 weeks
+  store_links:
+    - name: itch.io
+      link: https://timrademaker.itch.io/bongo-beater?password=portfolio
