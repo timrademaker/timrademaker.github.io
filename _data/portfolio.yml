@@ -92,3 +92,29 @@ temple-of-giants:
   store_links:
     - name: itch.io
       link: https://igad.itch.io/temple-of-giants
+
+formula-frosty:
+  title: Formula Frosty
+  description: Formula Frosty is a local multiplayer racing/elimination game, where you compete against other players to be the only player with remaining lives. Players are killed once they get outside of the camera’s view.
+  file: _portfolio/formula-frosty.md
+  tile_image: /assets/portfolio/formula-frosty/formula-frosty-tile.jpg
+  trailer_id: n9R5ar-KuVU
+  responsibilities:
+    - name: Adaptive camera
+      has_details: true
+    - name: Menus
+      has_details: true
+    - name: Player ranking
+      has_details: true
+  details:
+    - title: Engine
+      value: Unreal Engine 4
+    - title: Team size
+      value: 13 (5 programmers, 4 designers, 4 artists)
+      value_short: 13
+    - title: Project Duration
+      value: May 2019 - June 2019 (6 weeks)
+      value_short: 6 weeks
+  store_links:
+    - name: itch.io
+      link: https://timrademaker.itch.io/formula-frosty?password=portfolio
