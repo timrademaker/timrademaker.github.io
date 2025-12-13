@@ -64,3 +64,31 @@ til-nord:
   store_links:
     - name: Steam
       link: https://store.steampowered.com/app/1490860/Til_Nord/
+
+temple-of-giants:
+  title: Temple of Giants
+  description: Temple of Giants is a third-person puzzle-platformer set in ancient Greece. In this single-player experience you play as Nysa, a Greek demi-goddess with earth-bending powers, who tries to save her mother from a monster who invaded and destroyed her mother's temple.
+  file: _portfolio/temple-of-giants.md
+  tile_image: /assets/portfolio/temple-of-giants/temple-of-giants-tile.png
+  trailer_id: 73S5u9E5Rvg
+  responsibilities:
+    - name: Build Pipeline
+      has_details: true
+    - name: Puzzle-platforming elements
+      has_details: true
+    - name: Game analytics integration
+      has_details: true
+    - name: Character inverse kinematics
+      has_details: true
+  details:
+    - title: Engine
+      value: Unreal Engine 4
+    - title: Team size
+      value: 17 (5 programmers, 5 designers, 7 artists)
+      value_short: 17
+    - title: Project Duration
+      value: May 2020 - June 2020 (8 weeks)
+      value_short: 8 weeks
+  store_links:
+    - name: itch.io
+      link: https://igad.itch.io/temple-of-giants
