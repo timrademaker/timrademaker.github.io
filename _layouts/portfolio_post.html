@@ -18,7 +18,7 @@ layout: default
             {% for responsibility in project_data.responsibilities %}
             <li>
                 {% if responsibility.has_details %}
-                <a href="#{{ responsibility.name | slugify }}">{{ responsibility.name }}</a>
+                <a href="#{{ responsibility.details_heading | default: responsibility.name | slugify }}">{{ responsibility.name }}</a>
                 {% else %}
                 {{ responsibility.name }}
                 {% endif %}
