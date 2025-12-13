@@ -22,6 +22,20 @@ layout: default
                 {% else %}
                 {{ responsibility.name }}
                 {% endif %}
+
+                {% if responsibility.subdetails %}
+                <ul>
+                    {% for subdetail in responsibility.subdetails %}
+                    <li>
+                        {% if subdetail.has_details %}
+                        <a href="#{{ subdetail.details_heading | default: subdetail.name | slugify }}">{{ subdetail.name }}</a>
+                        {% else %}
+                        {{ subdetail.name }}
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
             </li>
             {% endfor %}
         </ul>
