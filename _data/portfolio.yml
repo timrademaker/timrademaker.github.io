@@ -3,7 +3,7 @@ nis-classics-vol-2:
     description: Two classic action RPGs making their entrance on modern platforms, over a decade after their original release.
     file: _portfolio/nis-classics-vol-2.md
     tile_image: /assets/portfolio/nis-classics-vol-2/nis-classics-vol-2-tile.jpg
-    trailer_id: mOFin-8lAYY
+    video_id: mOFin-8lAYY
     responsibilities:
       - name: Mouse Support
         has_details: true
@@ -36,7 +36,7 @@ til-nord:
   description: Discover a sublime open world on your snowmobile! Drive among the frozen environment of Snøfall øyer to discover beautiful vistas, time trials and quests that permanently change the open world in Til Nord; a free snowmobile driving game for PC.
   file: _portfolio/til-nord.md
   tile_image: /assets/portfolio/til-nord/til-nord-tile.jpg
-  trailer_id: kYy0MueNMFg
+  video_id: kYy0MueNMFg
   responsibilities:
     - name: Analytics
       has_details: true
@@ -70,7 +70,7 @@ temple-of-giants:
   description: Temple of Giants is a third-person puzzle-platformer set in ancient Greece. In this single-player experience you play as Nysa, a Greek demi-goddess with earth-bending powers, who tries to save her mother from a monster who invaded and destroyed her mother's temple.
   file: _portfolio/temple-of-giants.md
   tile_image: /assets/portfolio/temple-of-giants/temple-of-giants-tile.png
-  trailer_id: 73S5u9E5Rvg
+  video_id: 73S5u9E5Rvg
   responsibilities:
     - name: Build Pipeline
       has_details: true
@@ -98,7 +98,7 @@ formula-frosty:
   description: Formula Frosty is a local multiplayer racing/elimination game, where you compete against other players to be the only player with remaining lives. Players are killed once they get outside of the camera’s view.
   file: _portfolio/formula-frosty.md
   tile_image: /assets/portfolio/formula-frosty/formula-frosty-tile.jpg
-  trailer_id: n9R5ar-KuVU
+  video_id: n9R5ar-KuVU
   responsibilities:
     - name: Adaptive camera
       has_details: true

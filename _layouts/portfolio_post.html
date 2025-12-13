@@ -5,7 +5,13 @@ layout: default
 {% assign project_data = site.data.portfolio[project_slug] %}
 
 <div class="columns">
-    <iframe class="column video-embed aspect-16-9" src="http://www.youtube.com/embed/{{ project_data.trailer_id }}" frameborder="0" allowfullscreen></iframe>
+    {% if project_data.video_id %}
+    <iframe class="column video-embed aspect-16-9" src="http://www.youtube.com/embed/{{ project_data.video_id }}" frameborder="0" allowfullscreen></iframe>
+    {% elsif project_data.image_path %}
+    <div class="column">
+        <img src="{{ project_data.image_path }}">
+    </div>
+    {% endif %}
     <div class="column">
         <h2>Responsibilities and Work</h2>
         <ul>
