@@ -9,7 +9,7 @@ During the project, most developers became more familiar with one game's codebas
 
 ## Mouse Support
 <iframe class="column video-embed aspect-16-9 align-right" style="width: 360px" src="http://www.youtube.com/embed/p8ZuvkX4NAw" frameborder="0" allowfullscreen></iframe>
-<p>One of the new features of this port would be the addition of mouse support for the PC version of the game. I worked on this for Makai Kingdom, and set up some mouse support functions that were usable throughout the whole project with minimal changes to existing code. This was possible by, for example, adding code to create a button to the text drawing function that was already being used throughout the project.</p>
+One of the new features of this port would be the addition of mouse support for the PC version of the game. I worked on this for Makai Kingdom, and set up some mouse support functions that were usable throughout the whole project with minimal changes to existing code. This was possible by, for example, adding code to create a button to the text drawing function that was already being used throughout the project.
 
 ## Map Rendering Optimization
 Makai Kingdom did not reach our target framerate of 60 fps on the Nintendo Switch and lower-end PCs. After profiling, I found that the biggest bottleneck was the map rendering. The maps consist of fixed-size rectangles that were rendered using a draw call each, so performance would deteriorate as the game's dungeons grew in size. To improve the framerate, I batched squares that used the same texture together so that they could be drawn in a single draw call. This resulted in the game running at 60 fps on the Switch, regardless of the size of the map.
