@@ -1,6 +1,7 @@
 ---
 title: "NIS Classics Vol. 2"
 layout: portfolio_post
+date: 2021-09-01
 ---
 ## The project
 For this project, I assisted in porting two classic games to modern platforms (PC and Nintendo Switch). As this was a porting project, we worked with a large codebase that was unfamiliar to the entire team.<br>
