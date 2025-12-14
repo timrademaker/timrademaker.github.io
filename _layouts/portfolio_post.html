@@ -60,9 +60,9 @@ layout: default
     {% if project_data.details or project_data.available_on %}
     <div class="column">
         <h2>Additional Information</h2>
-            {% for detail in project_data.details %}
-                <b>{{ detail.title }}</b>: {{ detail.value }}<br>
-            {% endfor %}
+        {% for detail in project_data.details %}
+            <b>{{ detail.title }}</b>: {{ detail.value }}<br>
+        {% endfor %}
         {% if project_data.available_on %}
             <b>Available on</b>:
             {% for platform in project_data.available_on %}
