@@ -173,6 +173,44 @@ gradiusengine:
       value: September 2019 - November 2019 (8 weeks)
       value_short: 8 weeks
 
+tabi:
+  title: Tabi
+  description: Tabi is my personal engine project. While it currently only works on Windows, the intention behind its interface design is to have it set up in such a way that adding support for different platforms shouldn't cause too many issues.<br>Working on this project has allowed me to learn more about various things like rendering, entity component systems, CMake and GitHub Actions.
+  file: _portfolio/tabi.md
+  tile_image: /assets/portfolio/tabi/tabi-ducks.png
+  image_path: /assets/portfolio/tabi/tabi-ducks.png
+  current_features:
+    - name: Renderer
+      has_details: true
+    - name: Data-Oriented Entity Component System
+      has_details: true
+      details_heading: Entity Component System
+    - name: Event system
+      has_details: true
+    - name: Collision detection (using GJK distance algorithm)
+      has_details: true
+      details_heading: Collision Detection
+    - name: File IO
+      has_details: true
+    - name: Input system
+      has_details: true
+    - name: Logger
+      has_details: true
+    - name: GLTF model loader
+      has_details: true
+    - name: Resource manager
+      has_details: true
+  details:
+    - title: Language
+      value: C++
+    - title: Team size
+      value: 1
+    - title: Project Duration
+      value: May 2020 - present
+  available_on:
+    - name: GitHub
+      link: https://github.com/timrademaker/Tabi
+
 root-engine:
   title: ROOT Engine
   description: "ROOT Engine is a custom engine project with the aim of being used to create a racing game. The engine targets two platforms: Windows and PS4."
