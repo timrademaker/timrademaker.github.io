@@ -146,7 +146,7 @@ bongo-beater:
 
 gradiusengine:
   title: GradiusEngine
-  description: GradiusEngine is a custom engine that was supposed to be used to recreate Gradius V,
+  description: GradiusEngine is a custom engine that was supposed to be used to recreate Gradius V.
   file: _portfolio/gradiusengine.md
   tile_image: /assets/portfolio/gradiusengine/gradiusengine-interface.png
   video_id: 05kgvwbgRS8
