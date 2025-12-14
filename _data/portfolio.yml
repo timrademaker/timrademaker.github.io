@@ -181,6 +181,26 @@ tabi:
     - name: GitHub
       link: https://github.com/timrademaker/Tabi
 
+mazeum:
+  title: Mazeum
+  description: In Mazeum, you play as a thief trying to steal a high-value item from a museum. You can't just walk in and take the item, but will have to sneak through the vents to get where you want to go. Not all vents are connected to each other, and not all rooms are easily accessible, so you'll have to go in and out of the vents to find your way through the museum.
+  file: _portfolio/mazeum.md
+  tile_image: /assets/portfolio/mazeum/mazeum-tile.png
+  image_path: /assets/portfolio/mazeum/mazeum-stealing.gif
+  details:
+    - title: Engine
+      value: Unreal Engine 4
+    - title: Team size
+      value: 1
+    - title: Project Duration
+      value: December 2020 - January 2021 (70 hours)
+      value_short: 70 hours
+  available_on:
+    - name: itch.io
+      link: https://timrademaker.itch.io/mazeum
+    - name: GitHub
+      link: https://github.com/timrademaker/Mazeum
+
 til-nord:
   title: Til Nord
   description: Discover a sublime open world on your snowmobile! Drive among the frozen environment of Snøfall øyer to discover beautiful vistas, time trials and quests that permanently change the open world in Til Nord; a free snowmobile driving game for PC.
