@@ -25,7 +25,7 @@ nis-classics-vol-2:
       - title: Duration
         value: September 2021 - March 2022 (27 weeks)
         value_short: 27 weeks
-    store_links:
+    available_on:
       - name: Steam
         link: https://store.steampowered.com/bundle/25538/Prinny_Presents_NIS_Classics_Volume_2__Makai_Kingdom_Reclaimed_and_Rebound__ZHP_Unlosing_Ranger_vs_Darkdeath_Evilman_Digital_Deluxe_Edition/
       - name: Nintendo Store
@@ -61,7 +61,7 @@ til-nord:
     - title: Project Duration
       value: September 2020 - June 2021 (36 weeks)
       value_short: 36 weeks
-  store_links:
+  available_on:
     - name: Steam
       link: https://store.steampowered.com/app/1490860/Til_Nord/
 
@@ -89,7 +89,7 @@ temple-of-giants:
     - title: Project Duration
       value: May 2020 - June 2020 (8 weeks)
       value_short: 8 weeks
-  store_links:
+  available_on:
     - name: itch.io
       link: https://igad.itch.io/temple-of-giants
 
@@ -115,7 +115,7 @@ formula-frosty:
     - title: Project Duration
       value: May 2019 - June 2019 (6 weeks)
       value_short: 6 weeks
-  store_links:
+  available_on:
     - name: itch.io
       link: https://timrademaker.itch.io/formula-frosty?password=portfolio
 
@@ -140,7 +140,7 @@ bongo-beater:
     - title: Project Duration
       value: January 2020 - January 2020 (3 weeks)
       value_short: 3 weeks
-  store_links:
+  available_on:
     - name: itch.io
       link: https://timrademaker.itch.io/bongo-beater?password=portfolio
 
