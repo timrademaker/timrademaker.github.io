@@ -172,3 +172,40 @@ gradiusengine:
     - title: Project Duration
       value: September 2019 - November 2019 (8 weeks)
       value_short: 8 weeks
+
+root-engine:
+  title: ROOT Engine
+  description: "ROOT Engine is a custom engine project with the aim of being used to create a racing game. The engine targets two platforms: Windows and PS4."
+  file: _portfolio/root-engine.md
+  tile_image: /assets/portfolio/root-engine/root-engine-tile.png
+  responsibilities:
+    - name: Blender plugin for level editing
+      has_details: true
+    - name: Scrum master
+      has_details: true
+    - name: Automated builds
+      has_details: true
+    - name: Project setup and overall engine architecture
+      has_details: true
+      details_heading: Project Setup
+    - name: Various engine features 
+      subdetails:
+        - name: File IO (Windows and PS4)
+          has_details: true
+          details_heading: Multiplatform Support
+        - name: GLTF model loading support
+          has_details: true
+        - name: Audio support (using FMOD)
+        - name: Logger
+  details:
+    - title: Language
+      value: C++, Python
+    - title: Team size
+      value: 9 (4 gameplay programmers, 3 engine programmers, 2 graphics programmers)
+      value_short: 9
+    - title: Project Duration
+      value: February 2020 - April 2020 (8 weeks)
+      value_short: 8 weeks
+  available_on:
+    - name: GitHub (Blender plugin)
+      link: https://github.com/timrademaker/ROOTEngine-BlenderPlugin
