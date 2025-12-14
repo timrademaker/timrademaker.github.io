@@ -130,7 +130,6 @@ bongo-beater:
       has_details: true
       details_heading: Procedural Generation
     - name: VR controls
-      has_details: false
   details:
     - title: Engine
       value: Unreal Engine 4
@@ -154,24 +153,16 @@ gradiusengine:
     - name: Overall engine architecture
       has_details: true
     - name: Various engine features
-      has_details: false
       subdetails:
         - name: Editor interface
           has_details: true
         - name: Serialization and deserialization (scenes and objects)
-          has_details: false
         - name: Entity component system
-          has_details: false
         - name: File IO
-          has_details: false
         - name: Resource manager
-          has_details: false
         - name: Input system
-          has_details: false
         - name: Audio support (using FMOD)
-          has_details: false
     - name: Automated builds
-      has_details: false
   details:
     - title: Language
       value: C++
