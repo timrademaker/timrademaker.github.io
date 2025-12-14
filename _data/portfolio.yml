@@ -1,98 +1,3 @@
-nis-classics-vol-2:
-    title: NIS Classics Vol. 2
-    description: Two classic action RPGs making their entrance on modern platforms, over a decade after their original release.
-    file: _portfolio/nis-classics-vol-2.md
-    tile_image: /assets/portfolio/nis-classics-vol-2/nis-classics-vol-2-tile.jpg
-    video_id: mOFin-8lAYY
-    responsibilities:
-      - name: Mouse Support
-        has_details: true
-      - name: Map Rendering Optimization
-        has_details: true
-      - name: Game Data Load Speed-Up
-        has_details: true
-      - name: Debug Features
-        has_details: true
-      - name: Achievements
-        has_details: true
-      - name: Bug Fixing
-        has_details: true
-    details:
-      - title: Engine
-        value: Proprietary Engine (C++)
-      - title: Team size
-        value: 9
-      - title: Duration
-        value: September 2021 - March 2022 (27 weeks)
-        value_short: 27 weeks
-    available_on:
-      - name: Steam
-        link: https://store.steampowered.com/bundle/25538/Prinny_Presents_NIS_Classics_Volume_2__Makai_Kingdom_Reclaimed_and_Rebound__ZHP_Unlosing_Ranger_vs_Darkdeath_Evilman_Digital_Deluxe_Edition/
-      - name: Nintendo Store
-        link: https://www.nintendo.com/us/store/products/prinny-presents-nis-classics-volume-2-makai-kingdom-reclaimed-and-rebound-zhp-unlosing-ranger-vs-darkdeath-evilman-switch/
-
-til-nord:
-  title: Til Nord
-  description: Discover a sublime open world on your snowmobile! Drive among the frozen environment of Snøfall øyer to discover beautiful vistas, time trials and quests that permanently change the open world in Til Nord; a free snowmobile driving game for PC.
-  file: _portfolio/til-nord.md
-  tile_image: /assets/portfolio/til-nord/til-nord-tile.jpg
-  video_id: kYy0MueNMFg
-  responsibilities:
-    - name: Analytics
-      has_details: true
-    - name: Build Pipeline
-      has_details: true
-    - name: Submit Pipeline
-      has_details: true
-    - name: Crash Reporter
-      has_details: true
-    - name: Input Settings
-      has_details: true
-    - name: Saving and Loading
-      has_details: true
-    - name: Quality Assurance
-      has_details: true
-  details:
-    - title: Engine
-      value: Unreal Engine 4
-    - title: Team size
-      value: 19 (4 programmers, 11 designers, 4 artists)
-      value_short: 19
-    - title: Project Duration
-      value: September 2020 - June 2021 (36 weeks)
-      value_short: 36 weeks
-  available_on:
-    - name: Steam
-      link: https://store.steampowered.com/app/1490860/Til_Nord/
-
-temple-of-giants:
-  title: Temple of Giants
-  description: Temple of Giants is a third-person puzzle-platformer set in ancient Greece. In this single-player experience you play as Nysa, a Greek demi-goddess with earth-bending powers, who tries to save her mother from a monster who invaded and destroyed her mother's temple.
-  file: _portfolio/temple-of-giants.md
-  tile_image: /assets/portfolio/temple-of-giants/temple-of-giants-tile.png
-  video_id: 73S5u9E5Rvg
-  responsibilities:
-    - name: Build Pipeline
-      has_details: true
-    - name: Puzzle-platforming elements
-      has_details: true
-    - name: Game analytics integration
-      has_details: true
-    - name: Character inverse kinematics
-      has_details: true
-  details:
-    - title: Engine
-      value: Unreal Engine 4
-    - title: Team size
-      value: 17 (5 programmers, 5 designers, 7 artists)
-      value_short: 17
-    - title: Project Duration
-      value: May 2020 - June 2020 (8 weeks)
-      value_short: 8 weeks
-  available_on:
-    - name: itch.io
-      link: https://igad.itch.io/temple-of-giants
-
 formula-frosty:
   title: Formula Frosty
   description: Formula Frosty is a local multiplayer racing/elimination game, where you compete against other players to be the only player with remaining lives. Players are killed once they get outside of the camera’s view.
@@ -118,30 +23,6 @@ formula-frosty:
   available_on:
     - name: itch.io
       link: https://timrademaker.itch.io/formula-frosty?password=portfolio
-
-bongo-beater:
-  title: Bongo Beater
-  description: Bongo Beater is a virtual reality rhythm game where the player hits bongos on the beat of the music to destroy incoming asteroids and gain points.
-  file: _portfolio/bongo-beater.md
-  tile_image: /assets/portfolio/bongo-beater/bongo-beater-tile.png
-  video_id: ckEU5EWiPSg
-  responsibilities:
-    - name: Procedural generation of asteroid timing based on music
-      has_details: true
-      details_heading: Procedural Generation
-    - name: VR controls
-  details:
-    - title: Engine
-      value: Unreal Engine 4
-    - title: Team size
-      value: 9 (3 programmers, 3 designers, artists)
-      value_short: 9
-    - title: Project Duration
-      value: January 2020 - January 2020 (3 weeks)
-      value_short: 3 weeks
-  available_on:
-    - name: itch.io
-      link: https://timrademaker.itch.io/bongo-beater?password=portfolio
 
 gradiusengine:
   title: GradiusEngine
@@ -172,6 +53,95 @@ gradiusengine:
     - title: Project Duration
       value: September 2019 - November 2019 (8 weeks)
       value_short: 8 weeks
+
+bongo-beater:
+  title: Bongo Beater
+  description: Bongo Beater is a virtual reality rhythm game where the player hits bongos on the beat of the music to destroy incoming asteroids and gain points.
+  file: _portfolio/bongo-beater.md
+  tile_image: /assets/portfolio/bongo-beater/bongo-beater-tile.png
+  video_id: ckEU5EWiPSg
+  responsibilities:
+    - name: Procedural generation of asteroid timing based on music
+      has_details: true
+      details_heading: Procedural Generation
+    - name: VR controls
+  details:
+    - title: Engine
+      value: Unreal Engine 4
+    - title: Team size
+      value: 9 (3 programmers, 3 designers, artists)
+      value_short: 9
+    - title: Project Duration
+      value: January 2020 - January 2020 (3 weeks)
+      value_short: 3 weeks
+  available_on:
+    - name: itch.io
+      link: https://timrademaker.itch.io/bongo-beater?password=portfolio
+
+root-engine:
+  title: ROOT Engine
+  description: "ROOT Engine is a custom engine project with the aim of being used to create a racing game. The engine targets two platforms: Windows and PS4."
+  file: _portfolio/root-engine.md
+  tile_image: /assets/portfolio/root-engine/root-engine-tile.png
+  responsibilities:
+    - name: Blender plugin for level editing
+      has_details: true
+    - name: Scrum master
+      has_details: true
+    - name: Automated builds
+      has_details: true
+    - name: Project setup and overall engine architecture
+      has_details: true
+      details_heading: Project Setup
+    - name: Various engine features 
+      subdetails:
+        - name: File IO (Windows and PS4)
+          has_details: true
+          details_heading: Multiplatform Support
+        - name: GLTF model loading support
+          has_details: true
+        - name: Audio support (using FMOD)
+        - name: Logger
+  details:
+    - title: Language
+      value: C++, Python
+    - title: Team size
+      value: 9 (4 gameplay programmers, 3 engine programmers, 2 graphics programmers)
+      value_short: 9
+    - title: Project Duration
+      value: February 2020 - April 2020 (8 weeks)
+      value_short: 8 weeks
+  available_on:
+    - name: GitHub (Blender plugin)
+      link: https://github.com/timrademaker/ROOTEngine-BlenderPlugin
+
+temple-of-giants:
+  title: Temple of Giants
+  description: Temple of Giants is a third-person puzzle-platformer set in ancient Greece. In this single-player experience you play as Nysa, a Greek demi-goddess with earth-bending powers, who tries to save her mother from a monster who invaded and destroyed her mother's temple.
+  file: _portfolio/temple-of-giants.md
+  tile_image: /assets/portfolio/temple-of-giants/temple-of-giants-tile.png
+  video_id: 73S5u9E5Rvg
+  responsibilities:
+    - name: Build Pipeline
+      has_details: true
+    - name: Puzzle-platforming elements
+      has_details: true
+    - name: Game analytics integration
+      has_details: true
+    - name: Character inverse kinematics
+      has_details: true
+  details:
+    - title: Engine
+      value: Unreal Engine 4
+    - title: Team size
+      value: 17 (5 programmers, 5 designers, 7 artists)
+      value_short: 17
+    - title: Project Duration
+      value: May 2020 - June 2020 (8 weeks)
+      value_short: 8 weeks
+  available_on:
+    - name: itch.io
+      link: https://igad.itch.io/temple-of-giants
 
 tabi:
   title: Tabi
@@ -211,39 +181,69 @@ tabi:
     - name: GitHub
       link: https://github.com/timrademaker/Tabi
 
-root-engine:
-  title: ROOT Engine
-  description: "ROOT Engine is a custom engine project with the aim of being used to create a racing game. The engine targets two platforms: Windows and PS4."
-  file: _portfolio/root-engine.md
-  tile_image: /assets/portfolio/root-engine/root-engine-tile.png
+til-nord:
+  title: Til Nord
+  description: Discover a sublime open world on your snowmobile! Drive among the frozen environment of Snøfall øyer to discover beautiful vistas, time trials and quests that permanently change the open world in Til Nord; a free snowmobile driving game for PC.
+  file: _portfolio/til-nord.md
+  tile_image: /assets/portfolio/til-nord/til-nord-tile.jpg
+  video_id: kYy0MueNMFg
   responsibilities:
-    - name: Blender plugin for level editing
+    - name: Analytics
       has_details: true
-    - name: Scrum master
+    - name: Build Pipeline
       has_details: true
-    - name: Automated builds
+    - name: Submit Pipeline
       has_details: true
-    - name: Project setup and overall engine architecture
+    - name: Crash Reporter
       has_details: true
-      details_heading: Project Setup
-    - name: Various engine features 
-      subdetails:
-        - name: File IO (Windows and PS4)
-          has_details: true
-          details_heading: Multiplatform Support
-        - name: GLTF model loading support
-          has_details: true
-        - name: Audio support (using FMOD)
-        - name: Logger
+    - name: Input Settings
+      has_details: true
+    - name: Saving and Loading
+      has_details: true
+    - name: Quality Assurance
+      has_details: true
   details:
-    - title: Language
-      value: C++, Python
+    - title: Engine
+      value: Unreal Engine 4
     - title: Team size
-      value: 9 (4 gameplay programmers, 3 engine programmers, 2 graphics programmers)
-      value_short: 9
+      value: 19 (4 programmers, 11 designers, 4 artists)
+      value_short: 19
     - title: Project Duration
-      value: February 2020 - April 2020 (8 weeks)
-      value_short: 8 weeks
+      value: September 2020 - June 2021 (36 weeks)
+      value_short: 36 weeks
   available_on:
-    - name: GitHub (Blender plugin)
-      link: https://github.com/timrademaker/ROOTEngine-BlenderPlugin
+    - name: Steam
+      link: https://store.steampowered.com/app/1490860/Til_Nord/
+
+nis-classics-vol-2:
+    title: NIS Classics Vol. 2
+    description: Two classic action RPGs making their entrance on modern platforms, over a decade after their original release.
+    file: _portfolio/nis-classics-vol-2.md
+    tile_image: /assets/portfolio/nis-classics-vol-2/nis-classics-vol-2-tile.jpg
+    video_id: mOFin-8lAYY
+    responsibilities:
+      - name: Mouse Support
+        has_details: true
+      - name: Map Rendering Optimization
+        has_details: true
+      - name: Game Data Load Speed-Up
+        has_details: true
+      - name: Debug Features
+        has_details: true
+      - name: Achievements
+        has_details: true
+      - name: Bug Fixing
+        has_details: true
+    details:
+      - title: Engine
+        value: Proprietary Engine (C++)
+      - title: Team size
+        value: 9
+      - title: Duration
+        value: September 2021 - March 2022 (27 weeks)
+        value_short: 27 weeks
+    available_on:
+      - name: Steam
+        link: https://store.steampowered.com/bundle/25538/Prinny_Presents_NIS_Classics_Volume_2__Makai_Kingdom_Reclaimed_and_Rebound__ZHP_Unlosing_Ranger_vs_Darkdeath_Evilman_Digital_Deluxe_Edition/
+      - name: Nintendo Store
+        link: https://www.nintendo.com/us/store/products/prinny-presents-nis-classics-volume-2-makai-kingdom-reclaimed-and-rebound-zhp-unlosing-ranger-vs-darkdeath-evilman-switch/
