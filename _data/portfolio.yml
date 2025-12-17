@@ -267,3 +267,32 @@ nis-classics-vol-2:
         link: https://store.steampowered.com/bundle/25538/Prinny_Presents_NIS_Classics_Volume_2__Makai_Kingdom_Reclaimed_and_Rebound__ZHP_Unlosing_Ranger_vs_Darkdeath_Evilman_Digital_Deluxe_Edition/
       - name: Nintendo Store
         link: https://www.nintendo.com/us/store/products/prinny-presents-nis-classics-volume-2-makai-kingdom-reclaimed-and-rebound-zhp-unlosing-ranger-vs-darkdeath-evilman-switch/
+
+king-of-meat:
+  title: King of Meat
+  description: King of Meat is a co-op party platformer, pitting up to 4 players against unpredictable traps, quirky puzzles, and whacky monsters.
+  file: _portfolio/king-of-meat.md
+  tile_image: /assets/portfolio/king-of-meat/king-of-meat-tile.png
+  video_id: ZIJ4wU2wQjw
+  responsibilities:
+    - name: Platform integration (PS5, Xbox Series, Nintendo Switch, Steam)
+    - name: Platform certification (PS5, Xbox Series, Nintendo Switch)
+    - name: Renderer implementation (PS5, Nintendo Switch)
+    - name: LOD system
+    - name: UI
+    - name: Tooling
+  details:
+    - title: Engine
+      value: Proprietary Engine (C++)
+    - title: Publisher
+      value: Amazon Game Studios
+    - title: Duration
+      value: March 2022 - October 2025 (3 years 7 months)
+      value_short: 3 years 7 months
+  available_on:
+    - name: Steam
+      link: https://store.steampowered.com/app/1926980/King_of_Meat/
+    - name: PS5
+      link: https://store.playstation.com/concept/10005107/
+    - name: Xbox Series X|S
+      link: https://www.xbox.com/games/store/r/9PPB3ZRFG3R1
