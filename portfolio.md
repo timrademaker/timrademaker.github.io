@@ -6,9 +6,9 @@ title: Portfolio
 <h2 class="block-heading">Game Projects</h2>
 
 <div class="columns">
+    {%- include portfolio/project_tile.html project_title="King of Meat" -%}
     {%- include portfolio/project_tile.html project_title="NIS Classics Vol. 2" -%}
     {%- include portfolio/project_tile.html project_title="Til Nord" -%}
-    {%- include portfolio/project_tile.html project_title="Mazeum" -%}
 </div>
 
 <div class="spacer" style="height:30px"></div>
