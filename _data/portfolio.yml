@@ -25,7 +25,7 @@ formula-frosty:
       link: https://timrademaker.itch.io/formula-frosty?password=portfolio
 
 gradiusengine:
-  title: GradiusEngine
+  title: Gradius<wbr>Engine # Explicit word break opportunity for smaller screens
   description: GradiusEngine is a custom engine that was supposed to be used to recreate Gradius V.
   file: _portfolio/gradiusengine.md
   tile_image: /assets/portfolio/gradiusengine/gradiusengine-interface.png
