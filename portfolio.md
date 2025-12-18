@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_wide
 title: Portfolio
 ---
 <h1 class="page-title">Portfolio</h1>

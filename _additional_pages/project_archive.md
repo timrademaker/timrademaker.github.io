@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_wide
 title: Project Archive
 ---
 <h1 class="page-title">Project Archive</h1>

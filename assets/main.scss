@@ -6,6 +6,11 @@
 /*-------------------------
 General layout
 -------------------------*/
+.wrapper-wide {
+	@extend .wrapper;
+	max-width: 60%;
+}
+
 .page-title {
     text-align: center
 }
