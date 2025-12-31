@@ -83,7 +83,7 @@ root-engine:
   title: ROOT Engine
   description: "ROOT Engine is a custom engine project with the aim of being used to create a racing game. The engine targets two platforms: Windows and PS4."
   file: _portfolio/root-engine.md
-  tile_image: /assets/portfolio/root-engine/root-engine-tile.png
+  tile_image: /assets/portfolio/root-engine/root-engine-tile.jpg
   responsibilities:
     - name: Blender plugin for level editing
       has_details: true
@@ -120,7 +120,7 @@ temple-of-giants:
   title: Temple of Giants
   description: Temple of Giants is a third-person puzzle-platformer set in ancient Greece. In this single-player experience you play as Nysa, a Greek demi-goddess with earth-bending powers, who tries to save her mother from a monster who invaded and destroyed her mother's temple.
   file: _portfolio/temple-of-giants.md
-  tile_image: /assets/portfolio/temple-of-giants/temple-of-giants-tile.png
+  tile_image: /assets/portfolio/temple-of-giants/temple-of-giants-tile.jpg
   banner_image: /assets/portfolio/temple-of-giants/temple-of-giants-banner.jpg
   video_id: 73S5u9E5Rvg
   responsibilities:
@@ -187,8 +187,8 @@ mazeum:
   title: Mazeum
   description: In Mazeum, you play as a thief trying to steal a high-value item from a museum. You can't just walk in and take the item, but will have to sneak through the vents to get where you want to go. Not all vents are connected to each other, and not all rooms are easily accessible, so you'll have to go in and out of the vents to find your way through the museum.
   file: _portfolio/mazeum.md
-  tile_image: /assets/portfolio/mazeum/mazeum-tile.png
-  banner_image: /assets/portfolio/mazeum/mazeum-banner.png
+  tile_image: /assets/portfolio/mazeum/mazeum-tile.jpg
+  banner_image: /assets/portfolio/mazeum/mazeum-banner.jpg
   image_path: /assets/portfolio/mazeum/mazeum-stealing.gif
   details:
     - title: Engine
@@ -277,7 +277,7 @@ king-of-meat:
   title: King of Meat
   description: King of Meat is a co-op party platformer, pitting up to 4 players against unpredictable traps, quirky puzzles, and whacky monsters.
   file: _portfolio/king-of-meat.md
-  tile_image: /assets/portfolio/king-of-meat/king-of-meat-tile.png
+  tile_image: /assets/portfolio/king-of-meat/king-of-meat-tile.jpg
   banner_image: /assets/portfolio/king-of-meat/king-of-meat-banner.jpg
   video_id: ZIJ4wU2wQjw
   responsibilities:
