@@ -4,6 +4,7 @@ title: "Event System (C++) – Consumable Events"
 date: 2020-09-11 12:00:00 +0200
 tag: Templates
 categories: C++
+excerpt: A possibility for an event system is to make events consumable. That is, a certain delegate can tell the event system to stop sending out the event it just received as other delegates shouldn’t be handling it any more.
 ---
 This article is a continuation of [my previous article]({% post_url 2020-09-10-event-system-cpp %}), where I wrote about event systems. Reading it it not required to understand this article, but it might explain some things I mention.
 

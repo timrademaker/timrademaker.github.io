@@ -4,6 +4,7 @@ title:  "Event System (C++)"
 date:   2020-09-10 12:00:00 +0200
 tag: Templates
 categories: C++
+excerpt: If you want to have two objects communicate with each other without coupling them, the observer design pattern might just do what you want. But what if you want more?
 ---
 If you want to have two objects communicate with each other without coupling them, the [observer design pattern](https://gameprogrammingpatterns.com/observer.html) might just do what you want.
 
