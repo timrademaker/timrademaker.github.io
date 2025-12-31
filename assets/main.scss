@@ -53,6 +53,36 @@ h1, h2, h3, h4, h5, h6 {
 	max-width: 50%;
 }
 
+/*---
+Header
+---*/
+.wrapper-background {
+	max-width: 100%;
+	background-color: #000000a3;
+}
+
+.site-header-with-banner {
+	@extend .site-header;
+	background-position: center;
+	background-size: cover;
+	min-height: 160px;
+}
+
+.site-title {
+	font-weight: 400;
+}
+
+.wrapper-background .site-title {
+	&,
+  	&:visited {
+    	color: white;
+  	}
+}
+
+.wrapper-background .site-nav .page-link {
+	color: white;
+}
+
 /*-------------------------
 Portfolio
 -------------------------*/
