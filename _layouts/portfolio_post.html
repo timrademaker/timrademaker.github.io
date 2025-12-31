@@ -4,6 +4,8 @@ layout: default
 {% assign project_slug = page.title | slugify %}
 {% assign project_data = site.data.portfolio[project_slug] %}
 
+<h1 class="page-title">{{ page.title }}</h1>
+
 <div class="columns">
     {% if project_data.video_id %}
     <iframe class="column video-embed aspect-16-9" src="http://www.youtube.com/embed/{{ project_data.video_id }}" frameborder="0" allowfullscreen></iframe>
