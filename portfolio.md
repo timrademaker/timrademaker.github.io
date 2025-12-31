@@ -22,4 +22,4 @@ title: Portfolio
 
 <div class="spacer" style="height:30px"></div>
 
-<form><button formaction="{% link _additional_pages/project_archive.md %}">Project Archive</button></form>
+<a href="{% link _additional_pages/project_archive.md %}">Project Archive</a>
