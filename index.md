@@ -2,7 +2,7 @@
 layout: default_wide
 title: Portfolio
 ---
-<h1 class="page-title">Portfolio</h1>
+<h1 class="page-title">{{ page.title }}</h1>
 <h2 class="block-heading">Game Projects</h2>
 
 <div class="columns">
