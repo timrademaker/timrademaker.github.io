@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Unit Testing – CTest"
-date:   2020-05-18 12:00:00 +0200
 tag: Visual Studio
 categories: C++ "Unit Testing"
 ---

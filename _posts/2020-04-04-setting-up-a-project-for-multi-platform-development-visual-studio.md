@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Setting up a Project for Multi-Platform Development - Visual Studio"
-date:   2020-04-04 12:00:00 +0200
 tags:
 - Visual Studio
 categories:

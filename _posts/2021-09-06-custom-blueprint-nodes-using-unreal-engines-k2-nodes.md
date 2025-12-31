@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Custom Blueprint Nodes using Unreal Engine's K2 Nodes"
-date:   2021-09-06 12:00:00 +0200
 tag: Unreal Engine
 categories: C++
 ---

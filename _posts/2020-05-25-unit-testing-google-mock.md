@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Unit Testing – Google Mock"
-date:   2020-05-25 12:00:00 +0200
 tag: Visual Studio
 categories: C++ "Unit Testing"
 ---

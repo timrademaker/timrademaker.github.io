@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Unit Testing - Microsoft CppUnitTest Framework (C++)"
-date:   2020-05-05 12:00:00 +0200
 tag: Visual Studio
 categories: C++ "Unit Testing"
 ---
