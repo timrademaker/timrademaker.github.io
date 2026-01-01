@@ -4,7 +4,7 @@ layout: portfolio_post
 date: 2020-02-01
 ---
 ## Blender Plugin for Level Editing
-<iframe class="column video-embed aspect-16-9 align-right" style="width: 360px" src="http://www.youtube.com/embed/EMM5jI_h1hE" frameborder="0" allowfullscreen></iframe>
+<iframe class="column video-embed aspect-16-9 align-right" style="width: 360px" src="https://www.youtube.com/embed/EMM5jI_h1hE" frameborder="0" allowfullscreen></iframe>
 We knew that we would need some form of level editor for out engine, but didn’t think we would have the time to make our own (in-engine) level editor. It was recommended to us that we use Blender to edit levels, then export these levels to a GLTF file, and load this file into the engine.
 
 We didn’t want all models to be loaded as plain `GameObject`s, so we needed some way of identifying different types of objects. For this, I decided to attach some metadata to objects to make identifying their type possible.<br>

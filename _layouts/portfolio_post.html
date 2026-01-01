@@ -8,7 +8,7 @@ layout: default
 
 <div class="columns">
     {% if project_data.video_id %}
-    <iframe class="column video-embed aspect-16-9" src="http://www.youtube.com/embed/{{ project_data.video_id }}" frameborder="0" allowfullscreen></iframe>
+    <iframe class="column video-embed aspect-16-9" src="https://www.youtube.com/embed/{{ project_data.video_id }}" frameborder="0" allowfullscreen></iframe>
     {% elsif project_data.image_path %}
     <div class="column">
         <img src="{{ project_data.image_path }}">

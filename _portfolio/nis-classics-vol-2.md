@@ -8,7 +8,7 @@ For this project, I assisted in porting two classic games to modern platforms (P
 During the project, most developers became more familiar with one game's codebase than with the other, and ended up with an area of "expertise" in this project. Personally, I did more work on Makai Kingdom and ended up learning a lot about the game's custom scripting language, how these scripts were handled in the game, and how the asset pipeline worked.
 
 ## Mouse Support
-<iframe class="column video-embed aspect-16-9 align-right" style="width: 360px" src="http://www.youtube.com/embed/p8ZuvkX4NAw" frameborder="0" allowfullscreen></iframe>
+<iframe class="column video-embed aspect-16-9 align-right" style="width: 360px" src="https://www.youtube.com/embed/p8ZuvkX4NAw" frameborder="0" allowfullscreen></iframe>
 One of the new features of this port would be the addition of mouse support for the PC version of the game. I worked on this for Makai Kingdom, and set up some mouse support functions that were usable throughout the whole project with minimal changes to existing code. This was possible by, for example, adding code to create a button to the text drawing function that was already being used throughout the project.
 
 ## Map Rendering Optimization
