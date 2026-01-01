@@ -17,7 +17,11 @@ General layout
 
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0.3em;
-  }
+}
+
+figcaption {
+	font-style: italic;
+}
 
 .columns {
 	box-sizing: border-box;
@@ -53,9 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 	max-width: 50%;
 }
 
-/*---
+/*-------------------------
 Header
----*/
+-------------------------*/
 .wrapper-background {
 	max-width: 100%;
 	background-color: #000000a3;
