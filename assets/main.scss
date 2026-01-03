@@ -95,8 +95,10 @@ Header
   	}
 }
 
-.wrapper-background .site-nav .page-link {
-	color: white;
+@media screen and (min-width: calc(1px + minima.$on-palm)) {
+	.wrapper-background .site-nav .page-link {
+		color: white;
+	}
 }
 
 /*-------------------------
