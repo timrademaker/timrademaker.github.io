@@ -3,6 +3,8 @@
 
 @use "minima";
 
+$small-screen-width: 768px;
+
 /*-------------------------
 General layout
 -------------------------*/
@@ -29,17 +31,18 @@ figcaption {
 	flex-wrap: wrap !important;
 	gap: 2em;
 }
-// Only show a single column on small screens
-@media screen and (max-width: 768px) {
-	.columns .project-image {
-		flex-basis: 100% !important;
-		flex-grow: 0 !important;
-	}
-}
 
 .column {
 	flex-basis: 0px;
 	flex-grow: 1;
+}
+
+// Only show a single column on small screens
+@media screen and (max-width: $small-screen-width) {
+	.column {
+		flex-basis: 100% !important;
+		flex-grow: 0 !important;
+	}
 }
 
 .aspect-16-9 {
@@ -51,10 +54,19 @@ figcaption {
 	visibility: hidden;
 }
 
-.align-right {
-	float: right;
-	margin-left: 1.5em;
-	max-width: 50%;
+@media screen and (min-width: calc(1px + $small-screen-width)) {
+	.align-right {
+		float: right;
+		margin-left: 1.5em;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: $small-screen-width) {
+	.align-right {
+		max-width: 100%;
+		margin-bottom: 0.5em;
+	}
 }
 
 /*-------------------------
