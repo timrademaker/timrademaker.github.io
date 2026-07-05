@@ -282,7 +282,7 @@ king-of-meat:
   video_id: ZIJ4wU2wQjw
   responsibilities:
     - name: Platform integration (PS5, Xbox Series, Nintendo Switch, Steam)
-    - name: Platform certification (PS5, Xbox Series, Nintendo Switch)
+    - name: Platform compliance (PS5, Xbox Series, Nintendo Switch)
     - name: Renderer implementation (PS5, Nintendo Switch)
     - name: LOD system
     - name: UI
