@@ -302,3 +302,37 @@ king-of-meat:
       link: https://store.playstation.com/concept/10005107/
     - name: Xbox Series X|S
       link: https://www.xbox.com/games/store/r/9PPB3ZRFG3R1
+
+monopoly-star-wars-heroes-vs-villains:
+  title: "Monopoly Star Wars™ Heroes vs. Villains"
+  description: Get ready for a dynamic, team-based twist on MONOPOLY® set in the Star Wars™ galaxy! Choose your favorite heroes or villains, use their unique powers, and battle for control of the galaxy.
+  file: _portfolio/monopoly-star-wars.md
+  tile_image: /assets/portfolio/monopoly-star-wars/monopoly-star-wars-tile.jpg
+  banner_image: /assets/portfolio/monopoly-star-wars/monopoly-star-wars-banner.jpg
+  video_id: O6UDXDKp6Q0
+  responsibilities:
+    - name: Platform integration (PS5, Xbox Series, Ubisoft Connect)
+    - name: Platform compliance (PS5, Xbox Series, Nintendo Switch)
+  details:
+    - title: Engine
+      value: Unity
+    - title: Publisher
+      value: Ubisoft
+    - title: Duration
+      value: November 2025 - June 2026 (8 months)
+      value_short: 8 months
+  available_on:
+    - name: Steam
+      link: https://store.steampowered.com/app/3936610/Monopoly_Star_Wars_Heroes_vs_Villains/
+    - name: Ubisoft Connect
+      link: https://www.ubisoft.com/en-us/games/monopoly-star-wars-heroes-vs-villains
+    - name: Epic Games Store
+      link: https://store.epicgames.com/p/monopoly-star-wars-heroes-vs-villains
+    - name: PS5
+      link: https://store.playstation.com/nl-nl/product/EP0001-PPSA29182_00-ARTEMISPS5000001/
+    - name: Xbox Series X|S
+      link: https://www.xbox.com/nl-NL/games/store/monopoly-star-wars-heroes-vs-villains/9N1CHNHW8Q4L
+    - name: Nintendo Switch
+      link: https://www.nintendo.com/us/store/products/monopoly-star-wars-heroes-vs-villains-switch/
+    - name: Nintendo Switch 2
+      link: https://www.nintendo.com/us/store/products/monopoly-star-wars-heroes-vs-villains-switch-2/
