@@ -281,8 +281,7 @@ king-of-meat:
   banner_image: /assets/portfolio/king-of-meat/king-of-meat-banner.jpg
   video_id: ZIJ4wU2wQjw
   responsibilities:
-    - name: Platform integration (PS5, Xbox Series, Nintendo Switch, Steam)
-    - name: Platform compliance (PS5, Xbox Series, Nintendo Switch)
+    - name: Platform integration and compliance (PS5, Xbox Series X|S, Nintendo Switch, Steam)
     - name: Renderer implementation (PS5, Nintendo Switch)
     - name: LOD system
     - name: UI
@@ -311,8 +310,7 @@ monopoly-star-wars-heroes-vs-villains:
   banner_image: /assets/portfolio/monopoly-star-wars/monopoly-star-wars-banner.jpg
   video_id: O6UDXDKp6Q0
   responsibilities:
-    - name: Platform integration (PS5, Xbox Series, Ubisoft Connect)
-    - name: Platform compliance (PS5, Xbox Series, Nintendo Switch)
+    - name: Platform integration and compliance (PS5, Xbox Series X|S, Nintendo Switch, Ubisoft Connect)
   details:
     - title: Engine
       value: Unity
